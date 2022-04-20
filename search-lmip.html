@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, initial-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <title>SmartEdu | Search Smart Thing</title>
+
+    <link type="text/css" rel="stylesheet" href="css/style.css">
+    <link type="text/css" rel="stylesheet" href="css/checkbox.css">
+</head>
+
+<body>
+    <main class="main-wrap">
+        
+        <!-- Beginning search lmip
+            ==================================== -->
+        <section class="main-content-wrap search-form-main-wrap">
+            <div class="lmip-search-modal">
+                <section class="about-lmip-header-wrap">
+                    <div class="common-wrap clear">
+                        <div class="about-lmip-header-inner">
+                            <div class="lmip-header-logo">
+                                <a href="#">
+                                    <picture>
+                                        <source media="(min-width:992px)" srcset="svg/about-lmip/logo_lmip.svg" type="image/svg">
+                                        <source media="(min-width:768px)" srcset="svg/about-lmip/logo_lmip.svg" type="image/svg">
+                                        <source media="(max-width:767px)" srcset="svg/about-lmip/logo_lmip.svg" type="image/svg">
+                                        <img alt="" src="svg/about-lmip/logo_lmip.svg">
+                                    </picture>
+                                </a>
+                            </div>
+                            <div class="about-lmip-close">
+                                <picture>
+                                    <source media="(min-width:992px)" srcset="svg/icon_close.svg" type="image/svg">
+                                    <source media="(min-width:768px)" srcset="svg/icon_close.svg" type="image/svg">
+                                    <source media="(max-width:767px)" srcset="svg/icon_close.svg" type="image/svg">
+                                    <img alt="" src="svg/icon_close.svg">
+                                </picture>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="lmip-searchform-wrap">
+                    <div class="common-wrap clear">
+                        <div class="lmip-searchform-inner">
+                            <div class="go-back-btn">
+                                <a href="#">Go back</a>
+                            </div>
+                            <div class="lmip-searchbar">
+                                <h2>Search for smart in everything</h2>
+                                <div class="lmip-searchform">
+                                    <form action="#" method="post">
+                                        <div class="input-row">
+                                            <input class="search-box" type="search" name="" value="" placeholder="Search Publications (Economy, Skills, Employment….)">
+                                        </div>
+                                        <div class="input-row submit-btn">
+                                            <input type="submit" value="Search">
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="filter-section-wrap">
+                    <div class="common-wrap clear">
+                        <div class="search-accordion-wrap">
+                            <div class="search-accordion-trigger-wrap">
+                                <div class="accordion-trigger-item-wrap">
+                                    <div class="accordion-trigger">
+                                        <h5>Year</h5>
+                                        <div class="accordion-hide">
+                                            <div class="checkbox-wrap">
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check-all checkbox-custom" id="checkbox-All" />
+                                                    <label for="checkbox-All" class="checkbox-custom-label">All</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check-all checkbox-custom" id="checkbox-main" />
+                                                    <label for="checkbox-main" class="checkbox-custom-label">2021</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="checkbox-custom_01" />
+                                                    <label for="checkbox-custom_01" class="checkbox-custom-label">2020</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="checkbox-custom_02" />
+                                                    <label for="checkbox-custom_02" class="checkbox-custom-label">2019</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="checkbox-custom_03" />
+                                                    <label for="checkbox-custom_03" class="checkbox-custom-label">2018</label>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-see-more">
+                                                <a href="#">See More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-trigger">
+                                        <h5>Publication type</h5>
+                                        <div class="accordion-hide">
+                                            <div class="checkbox-wrap">
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check-all checkbox-custom" id="Brief" />
+                                                    <label for="Brief" class="checkbox-custom-label">Brief</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Booklet" />
+                                                    <label for="Booklet" class="checkbox-custom-label">Booklet</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Conceptual" />
+                                                    <label for="Conceptual" class="checkbox-custom-label">Conceptual framework</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Infographics" />
+                                                    <label for="Infographics" class="checkbox-custom-label">Infographics</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Published" />
+                                                    <label for="Published" class="checkbox-custom-label">Published reports</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Research" />
+                                                    <label for="Research" class="checkbox-custom-label">Research paper</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-trigger">
+                                        <h5>Topic</h5>
+                                        <div class="accordion-hide">
+                                            <div class="checkbox-wrap">
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check-all checkbox-custom" id="Analysis" />
+                                                    <label for="Analysis" class="checkbox-custom-label">Analysis</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Demand" />
+                                                    <label for="Demand" class="checkbox-custom-label">Demand</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Economy" />
+                                                    <label for="Economy" class="checkbox-custom-label">Economy</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Education" />
+                                                    <label for="Education" class="checkbox-custom-label">Education</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Employment" />
+                                                    <label for="Employment" class="checkbox-custom-label">Employment</label>
+                                                </div>
+                                            </div>
+                                            <div class="accordion-see-more">
+                                                <a href="#">See More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-trigger">
+                                        <h5>Authors</h5>
+                                        <div class="accordion-hide">
+                                            <div class="checkbox-wrap">
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check-all checkbox-custom" id="Arends" />
+                                                    <label for="Arends" class="checkbox-custom-label">Arends, F</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Bhorat" />
+                                                    <label for="Bhorat" class="checkbox-custom-label">Bhorat, H</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Chabane" />
+                                                    <label for="Chabane" class="checkbox-custom-label">Chabane, S</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Mnwango" />
+                                                    <label for="Mnwango" class="checkbox-custom-label">Mnwango, M</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Powell" />
+                                                    <label for="Powell" class="checkbox-custom-label">Powell, M</label>
+                                                </div><!--
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Reddy" />
+                                                    <label for="Reddy" class="checkbox-custom-label">Reddy, V</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="Steyn" />
+                                                    <label for="Steyn" class="checkbox-custom-label">Steyn, R</label>
+                                                </div>-->
+                                            </div>
+                                            <div class="accordion-see-more">
+                                                <a href="#">See More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-trigger">
+                                        <h5>Institution</h5>
+                                        <div class="accordion-hide">
+                                            <div class="checkbox-wrap">
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check-all checkbox-custom" id="DPRU" />
+                                                    <label for="DPRU" class="checkbox-custom-label">DPRU</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="UCT" />
+                                                    <label for="UCT" class="checkbox-custom-label">UCT</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="UJ" />
+                                                    <label for="UJ" class="checkbox-custom-label">UJ</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="UP" />
+                                                    <label for="UP" class="checkbox-custom-label">UP</label>
+                                                </div>
+                                                <div class="checkbox">
+                                                    <input type="checkbox" class="check checkbox-custom" id="WITS" />
+                                                    <label for="WITS" class="checkbox-custom-label">WITS</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-seacrh mobi">
+                                        <a href="#" class="btn medium">Search</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-accordion-content-wrap">
+                                <div class="latest-publications-item-wrap">
+                                    <div class="latest-publications-item">
+                                        <picture>
+                                            <source media="(min-width:992px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(min-width:768px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(max-width:767px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <img alt="" src="svg/image_publication-plain-cover.jpg">
+                                        </picture>
+                                        <div class="latest-publications-content">
+                                            <span>Skills Supply and Demand Smartedu</span>
+                                        </div>
+                                    </div>
+                                    <div class="latest-publications-item">
+                                         <picture>
+                                            <source media="(min-width:992px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(min-width:768px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(max-width:767px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <img alt="" src="svg/image_publication-plain-cover.jpg">
+                                        </picture>
+                                        <div class="latest-publications-content">
+                                            <span>Skills Supply and Demand Smartedu</span>
+                                        </div>
+                                    </div>
+                                    <div class="latest-publications-item">
+                                        <picture>
+                                            <source media="(min-width:992px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(min-width:768px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(max-width:767px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <img alt="" src="svg/image_publication-plain-cover.jpg">
+                                        </picture>
+                                        <div class="latest-publications-content">
+                                            <span>Skills Supply and Demand Smartedu</span>
+                                        </div>
+                                    </div>
+                                    <div class="latest-publications-item">
+                                         <picture>
+                                            <source media="(min-width:992px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(min-width:768px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(max-width:767px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <img alt="" src="svg/image_publication-plain-cover.jpg">
+                                        </picture>
+                                        <div class="latest-publications-content">
+                                            <span>Skills Supply and Demand Smartedu</span>
+                                        </div>
+                                    </div>
+                                    <div class="latest-publications-item">
+                                         <picture>
+                                            <source media="(min-width:992px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(min-width:768px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(max-width:767px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <img alt="" src="svg/image_publication-plain-cover.jpg">
+                                        </picture>
+                                        <div class="latest-publications-content">
+                                            <span>Skills Supply and Demand Smartedu</span>
+                                        </div>
+                                    </div>
+                                    <div class="latest-publications-item">
+                                         <picture>
+                                            <source media="(min-width:992px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(min-width:768px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(max-width:767px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <img alt="" src="svg/image_publication-plain-cover.jpg">
+                                        </picture>
+                                        <div class="latest-publications-content">
+                                            <span>Skills Supply and Demand Smartedu</span>
+                                        </div>
+                                    </div>
+                                    <div class="latest-publications-item">
+                                         <picture>
+                                            <source media="(min-width:992px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(min-width:768px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(max-width:767px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <img alt="" src="svg/image_publication-plain-cover.jpg">
+                                        </picture>
+                                        <div class="latest-publications-content">
+                                            <span>Skills Supply and Demand Smartedu</span>
+                                        </div>
+                                    </div>
+                                    <div class="latest-publications-item">
+                                         <picture>
+                                            <source media="(min-width:992px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(min-width:768px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(max-width:767px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <img alt="" src="svg/image_publication-plain-cover.jpg">
+                                        </picture>
+                                        <div class="latest-publications-content">
+                                            <span>Skills Supply and Demand Smartedu</span>
+                                        </div>
+                                    </div>
+                                    <div class="latest-publications-item">
+                                         <picture>
+                                            <source media="(min-width:992px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(min-width:768px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(max-width:767px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <img alt="" src="svg/image_publication-plain-cover.jpg">
+                                        </picture>
+                                        <div class="latest-publications-content">
+                                            <span>Skills Supply and Demand Smartedu</span>
+                                        </div>
+                                    </div>
+                                    <div class="latest-publications-item">
+                                         <picture>
+                                            <source media="(min-width:992px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(min-width:768px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(max-width:767px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <img alt="" src="svg/image_publication-plain-cover.jpg">
+                                        </picture>
+                                        <div class="latest-publications-content">
+                                            <span>Skills Supply and Demand Smartedu</span>
+                                        </div>
+                                    </div>
+                                    <div class="latest-publications-item">
+                                         <picture>
+                                            <source media="(min-width:992px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(min-width:768px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(max-width:767px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <img alt="" src="svg/image_publication-plain-cover.jpg">
+                                        </picture>
+                                        <div class="latest-publications-content">
+                                            <span>Skills Supply and Demand Smartedu</span>
+                                        </div>
+                                    </div>
+                                    <div class="latest-publications-item">
+                                         <picture>
+                                            <source media="(min-width:992px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(min-width:768px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <source media="(max-width:767px)" srcset="svg/image_publication-plain-cover.jpg">
+                                            <img alt="" src="svg/image_publication-plain-cover.jpg">
+                                        </picture>
+                                        <div class="latest-publications-content">
+                                            <span>Skills Supply and Demand Smartedu</span>
+                                        </div>
+                                    </div>
+                                    <div class="latest-publications-see-more mobi">
+                                        <a href="publications.html" class="btn medium">See more</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <!-- Ending-LMIP-Second-phase-wrap -->
+        <!-- Beginning-filter-section -->
+        
+        <!-- Ending-filter-section -->
+
+    </main>
+
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/sticky.js" defer></script>
+    <script type="text/javascript" src="js/common-scripts.js" defer></script>
+
+</body>
+
+</html>
